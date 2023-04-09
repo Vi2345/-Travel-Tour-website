@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website Javascript</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header section starts-->
+        
+    <header class="header">
+      <section class="line">
+        
+            <div class="logo">
+                <a href="#">Travel</a>
+            </div>
+            <nav class="navbar" id="icon">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Packages">Packages</a>
+                <a href="#Book">Book</a>
+            </nav>
+            <div class="icon" onclick="myFunction()"><i class=" fs-3 fa-solid fa-bars"></i></div>
+       
+    </section>
+   </header>
+ <!--header section ends-->
+
+ <!--main section starts-->
+ <main>
+    <!--Home section starts-->
+ <section class="Home" id="Home">
+    <div class="swiper Home-slider">
+    <div class="swiper-wrapper">
+
+    <div class="swiper-slide slide" style="background:url(Images/home-slide-1.jpg) no-repeat;" >
+    <div class="content">
+           <h1>Explore, Discover, Travel</h1>
+           <p>Travel around the world</p>
+           <a href="#Packages" class="button">Discover more</a>
+        </div>
+     </div>
+
+     <div class="swiper-slide slide" style="background:url(Images/home-slide-2.jpg) no-repeat">
+        <div class="content">
+           <h1>Explore, Discover, Travel</h1>
+           <p>Discover the new places</p>
+           <a href="#Packages" class="button">Discover more</a>
+        </div>
+     </div>
+
+     <div class="swiper-slide slide" style="background:url(Images/home-slide-3.jpg) no-repeat">
+        <div class="content">
+           <h1>Explore, Discover, Travel</h1>
+           <p>Make your tour worthwhile</p>
+           <a href="#Packages" class="button">Discover more</a>
+        </div>
+      </div>
+
+     </div>
+
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+    </div>
+
+  </section> 
+ <!--Home section ends-->
+   
+ 
+ 
+ 
+<!--About section starts-->
+        
+   <section class="About align" id="About">
+
+      <div class="image">
+          <img src="images 1/about-img.jpg">
+      </div>
+
+      <div class="space">
+          <h1>Why choose us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Repellat eligendi illo voluptatum alias vero rem reiciendis porro natus tempore nemo fuga qui, quo illum!</p>
+          <a href="#reviews" class="circle">Read more</a>
+      
+
+      <div class="icons-container">
+          <div class="icons">
+              <i class="fa-solid fa-map"></i>
+              <h1>Top destination</h1>
+          </div> 
+
+          <div class="icons">
+               <i class="fa-solid fa-hand-holding-dollar"></i>
+               <h1>affordable prices</h1>
+          </div>
+
+          <div class="icons">
+              <i class="fa-solid fa-headset"></i>
+              <h1>24/7 guide services</h1>
+          </div>
+
+
+      </div>
+  </div>
+
+  </section>
+
+  <!--About section ends-->
+
+  <!--review section starts-->
+  <section class="reviews align" id="reviews">
+  <div class="review-slider">
+      <div class="set">
+          <h1>Clients review</h1>
+      </div>
+           <div class="slide">
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat odit blanditiis quibusdam maxime, ad nesciunt labore veritatis 
+                  ex pariatur aut modi magnam quaerat rem quam laborum consequatur perspiciatis optio. Atque.</p>
+                  <h1>John deo</h1>
+                  <span>Traveler</span>
+                  <img src="Reviews.img/pic-1.png">
+               </div> 
+           <div class="slide">
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+              </div>
+
+                  <p>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                   Aut illum debitis magnam a quia quibusdam, esse ut, accusantium cumque autem accusamus facere. 
+                   Excepturi voluptatibus nihil beatae amet vel, ut sed?
+                   </p>
+                  <h1>Angelina</h1>
+                  <span>Traveler</span>
+                  <img src="Reviews.img/pic-2.png">
+           </div>
+          
+           <div class="slide">
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+
+                  <p>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                   Aut illum debitis magnam a quia quibusdam, esse ut, accusantium cumque autem accusamus facere. 
+                   Excepturi voluptatibus nihil beatae amet vel, ut sed?
+                   </p>
+                  <h1>william swith</h1>
+                  <span>Traveler</span>
+                  <img src="Reviews.img/pic-3.png">
+           </div>
+
+           <div class="slide">
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolorum quaerat fugit explicabo quia quod excepturi nostrum aliquid perferendis architecto necessitatibus laborum, 
+                   nobis error cupiditate quam. Natus, tempora ipsam? Aliquam, dolores.</p>
+                  <h1> Elizabeth</h1>
+                  <span>Traveler</span>
+                  <img src="Reviews.img/pic-4.png">
+           </div>
+          
+
+
+           <div class="slide">
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident animi quod sint, 
+                      odio perferendis vel nostrum incidunt facere dolorem dolorum alias blanditiis tenetur enim pariatur! 
+                      Aliquid numquam impedit dolorum?</p>
+                  <h1> Elizabeth</h1>
+                  <span>Traveler</span>
+                  <img src="Reviews.img/pic-5.png">
+           </div>
+
+
+           <div class="slide">
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam! A veniam quisquam provident molestias. 
+                   Nostrum eos praesentium, vel magnam necessitatibus delectus eius ut dignissimos assumenda atque,
+                    qui unde modi.</p>
+                  <h1>Nancy</h1>
+                  <span>Traveler</span>
+                  <img src="Reviews.img/pic-6.png">
+           </div>
+  </div>
+</section>
+
+
+  <!--package section starts-->
+ 
+<section class="Packages align" id="Packages">
+
+     <div class="letter" style="background: url(background.img/header-bg-1.png) no-repeat">
+      <h1>Our packages</h1>
+      </div>
+
+ <div class="box-container">
+      
+        <div class="box">
+         <img src="images 2/img-1.jpg">
+          <h1>Adventure and tour</h1>
+          <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
+          <a href="#Book" class="circle">Book now</a>
+        </div>
+
+     
+        <div class="box">
+           <img src="images 2/img-2.jpg">
+           <h1>Adventure and tour</h1>
+           <p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
+           <a href="#Book" class="circle">Book now</a>
+       </div>
+
+
+    <div class="box">
+       <img src="images 2/img-3.jpg">
+       <h1>Adventure and tour</h1>
+       <p>Quibusdam est tempora libero totam quia animi lane.</p>
+       <a href="#Book" class="circle">Book now</a>
+    </div>
+
+
+
+        <div class="box">
+          <img src="images 2/img-4.jpg">
+          <h1>Adventure and tour</h1>
+          <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
+          <a href="#Book" class="circle">Book now</a>
+         </div>
+
+
+      <div class="box">
+       <img src="images 2/img-5.jpg">
+          <h1>Adventure and tour</h1>
+          <p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
+          <a href="#Book" class="circle">Book now</a>
+     </div>
+
+
+     <div class="box">
+          <img src="images 2/img-6.jpg">
+          <h1>Adventure and tour</h1>
+          <p>Quibusdam est tempora libero totam quia animi lane.</p>
+          <a href="#Book" class="circle">Book now</a>
+      </div>
+
+
+  <div class="box">
+     <img src="images 2/img-7.jpg">
+        <h1>Adventure and tour</h1>
+        <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
+        <a href="#Book" class="circle">Book now</a>
+    </div>
+
+
+<div class="box">
+   <img src="images 2/img-8.jpg">
+    <h1>Adventure and tour</h1>
+    <p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
+    <a href="#Book" class="circle">Book now</a>
+</div>
+
+
+
+  <div class="box">
+    <img src="images 2/img-9.jpg">
+    <h1>Adventure and tour</h1>
+    <p>Quibusdam est tempora libero totam quia animi lane.</p>
+    <a href="#Book" class="circle">Book now</a>
+</div>
+
+
+<div class="box">
+    <img src="images 2/img-10.jpg">
+    <h1>Adventure and tour</h1>
+    <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
+    <a href="#Book" class="circle">Book now</a>
+</div>
+
+
+<div class="box">
+<img src="images 2/img-11.jpg">
+<h1>Adventure and tour</h1>
+<p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
+<a href="#Book" class="circle">Book now</a>
+</div>
+
+
+<div class="box">
+<img src="images 2/img-12.jpg">
+<h1>Adventure and tour</h1>
+<p>Quibusdam est tempora libero totam quia animi lane.</p>
+<a href="#Book" class="circle">Book now</a>
+</div>
+
+</div>
+
+  <div class="load-more">
+      <a href="#Packages" class="button">Load more</a>
+  </div>
+  </section>
+
+<!--Package section ends-->
+
+<!--Home offer section starts-->
+<section class="Home-offer align">
+  <div class="area">
+  <h1>upto 50% 0ffer</h1>
+  <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Neque quam facilis veniam doloribus quo autem vero temporibus! Repudiandae reprehenderit, 
+      ea pariatur facilis neque in laborum corporis laboriosam nostrum temporibus consequatur?
+  </p>
+  <a href="#Book" class="button">Book now</a>
+</div>
+
+
+</section>
+<!--Home offer section ends-->
+
+
+<!--service section starts-->
+
+<section class="Services align">
+  <div class="title">
+      <h1>Our services</h1>
+  </div>
+
+  <div class="container">
+      <div class="contain">
+          <img src="images 3/icon-1.png">
+          <h1>Adventure</h1>
+      </div>
+
+      <div class="contain">
+          <img src="images 3/icon-2.png">
+          <h1>Tour guide</h1>
+      </div>
+
+      <div class="contain">
+          <img src="images 3/icon-3.png">
+          <h1>Trekking</h1>
+      </div>
+
+      <div class="contain">
+          <img src="images 3/icon-4.png">
+          <h1>off road</h1>
+      </div>
+
+      <div class="contain">
+          <img src="images 3/icon-5.png">
+          <h1>Camping</h1>
+      </div>
+
+      <div class="contain">
+          <img src="images 3/icon-6.png">
+          <h1>camp fire</h1>
+      </div>
+  </div>
+</section>
+<!--Service section ends-->
+
+<!--Book section starts-->
+
+<section class="Book align" id="Book"> 
+
+   <div class="letter" style="background: url(background.img/header-bg-2.png) no-repeat">
+       <h1>Book now</h1>
+   </div>
+   <h1 class="title">Book your trip</h1>
+   <form action="Book" method="post" class="book-form" id="form">
+       <div class="flex">
+           
+           <div class="inputbox">
+               <label for="name" id="name-label">name:</label>
+               <input type="text" placeholder="Enter your name" name="name" id="name" spellcheck="false" onkeyup="validatename()">
+               <small id="n-error" class="d-block mb-3 text-primary"></small>
+           </div>
+
+           <div class="inputbox">
+               <label for="mail" id="mail-label">E-mail:</label>
+               <input type="email" placeholder="Enter your email" name="email" id="mail" spellcheck="false" onkeyup="validateemail()">
+              <small id="e-error" class="d-block mb-3 text-primary"></small>
+
+           </div>
+
+           <div class="inputbox">
+               <label for="phone" id="phone-label">Phone:</label>
+               <input type="number" placeholder="Enter your number" name="Phone" id="phone" spellcheck="false" onkeyup="validatephone()">
+               <small id="p-error" class="d-block mb-3 text-primary"></small>
+
+           </div>
+
+           <div class="inputbox">
+               <label for="address" id="address-label">address:</label>
+               <input type="text" placeholder="Enter your address" name="address" id="address" spellcheck="false" onkeyup="validateaddress()">
+               <small id="a-error" class="d-block mb-3 text-primary"></small>
+
+           </div>
+
+           <div class="inputbox">
+               <label for="location" id="location-label">Where to:</label>
+               <input type="text" placeholder="place you want to visit" name="location" id="location" spellcheck="false" onkeyup="validatelocation()">
+               <small id="l-error" class="d-block mb-3 text-primary"></small>
+
+           </div>
+
+           <div class="inputbox">
+               <label for="guests" id="guests-label">How many:</label>
+               <input type="number" placeholder="Number of guests" name="guests" id="guests" spellcheck="false" onkeyup="validateguests()">
+               <small id="g-error" class="d-block mb-3 text-primary"></small>
+
+           </div>
+
+
+            <div class="inputbox">
+               <label for="Arrival" id="Arrival-label">Arrivals:</label>
+               <input type="date" name="Arrivals" id="Arrival-date" spellcheck="false" onkeyup="validateArrival()">
+               <small id="Ad-error" class="d-block mb-3 text-primary"></small>
+
+           </div>
+
+           <div class="inputbox">
+               <label for="leaving" id="leaving-label">leaving:</label>
+               <input type="date" name="leaving" id="leaving-date" spellcheck="false" onkeyup="validateLeaving()">
+               <small id="le-error" class="d-block mb-3 text-primary"></small>
+           </div>
+
+       </div> 
+       <input type="submit" value="submit" class="button" name="send">
+     </form>
+    </section>
+   <!--Book section ends-->
+   </main>
+   <!--main section ends-->
+
+   <!--Footer section starts-->
+   <footer class="Footer">
+      <div class="sub-container">
+          <div class="sub">
+              <h1>Quick links</h1>
+              <a href="#Home"><i class="fa-solid fa-angle-right"></i>Home</a>
+              <a href="#About"><i class="fa-solid fa-angle-right"></i>About</a>
+              <a href="#Packages"><i class="fa-solid fa-angle-right"></i>Packages</a>
+              <a href="#Book"><i class="fa-solid fa-angle-right"></i>Book</a>
+          </div>
+ 
+          <div class="sub">
+              <h1>Extra links</h1>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Ask Questions</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>About us</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Privacy polices</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Terms of uses</a>
+          </div>
+
+          <div class="sub">
+              <h1>Contact info</h1>
+               <a href="#"><i class="fa-solid fa-phone"></i>+123-456-7890</a>
+               <a href="#"><i class="fa-solid fa-phone"></i>+111-222-3333</a>
+               <a href="#"><i class="fa-solid fa-envelope"></i>Tourtravels@gmail.com</a>
+               <a href="#" class="solid"><i class="fa-solid fa-map"></i>Chennai-Tamilnadu-600028</a>
+          </div>
+
+
+          <div class="sub">
+              <h1>Follow us</h1>
+              <a href="#"><i class="fa-brands fa-facebook"></i>Facebook </a>
+              <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+              <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+          </div>
+       </div>
+
+
+      <div class="credit">
+      created by<span> mr.web designer</span> | all rights reserved! |
+      </div>
+
+  </footer>
+  <!--Footer section ends-->
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
