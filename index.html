@@ -4,523 +4,584 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel website Javascript</title>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-   <link rel="stylesheet" href="style.css">
+    <title>Javascript bootstrap website header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--header section starts-->
-        
-    <header class="header">
-      <section class="line">
-        
-            <div class="logo">
-                <a href="#">Travel</a>
+      <header class="container-fluid" id="top">
+        <!--Top section starts-->
+        <section class="bg-primary">
+        <div class="top container">
+            <div class="row py-1">
+                <div class="col-12 col-lg-6">
+                    <p class="text-light m-0"><b>Email: Contact@gmail.com</b></p>
+                </div>
+                <div class="col-12 col-lg-6 text-lg-end">
+                    <p class="text-light m-0"><b>Phone: 1234567890</b></p>
+                </div>
             </div>
-            <nav class="navbar" id="icon">
-                <a href="#Home">Home</a>
-                <a href="#About">About</a>
-                <a href="#Packages">Packages</a>
-                <a href="#Book">Book</a>
-            </nav>
-            <div class="icon" onclick="myFunction()"><i class=" fs-3 fa-solid fa-bars"></i></div>
-       
-    </section>
-   </header>
- <!--header section ends-->
 
- <!--main section starts-->
- <main>
-    <!--Home section starts-->
- <section class="Home" id="Home">
-    <div class="swiper Home-slider">
-    <div class="swiper-wrapper">
-
-    <div class="swiper-slide slide" style="background:url(Images/home-slide-1.jpg) no-repeat;" >
-    <div class="content">
-           <h1>Explore, Discover, Travel</h1>
-           <p>Travel around the world</p>
-           <a href="#Packages" class="button">Discover more</a>
+        </div>
+      </section>
+        <!--Top section ends-->
+    <!--nav section starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="img/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active px-3" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 " href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#Team">our Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-3" href="#Services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#Services">Web design</a></li>
+                <li><a class="dropdown-item" href="#Services">Web development</a></li>
+                <li><a class="dropdown-item" href="#Services">Web WEB RESEARCH</a></li>
+                <li><a class="dropdown-item" href="#Services">SEO</a></li>
+                <li><a class="dropdown-item" href="#Services">DIGITAL MARKETING</a></li>
+                <li><a class="dropdown-item" href="#Services">App development</a></li>
+                <li><a class="dropdown-item" href="#Services">MOBILE APP</a></li>
+                <li><a class="dropdown-item" href="#Services">IOT</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#FAQ" tabindex="-1">FAQ</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+           <a href="#"> <img src="img/nav-icon/facebook.png" alt="facebook"></a>&nbsp; &nbsp;
+           <a href="#"> <img src="img/nav-icon/skype.png" alt="skype"></a>&nbsp; &nbsp;
+           <a href="#"> <img src="img/nav-icon/youtube.png" alt="youtube"></a>
+          </div>
         </div>
      </div>
-
-     <div class="swiper-slide slide" style="background:url(Images/home-slide-2.jpg) no-repeat">
-        <div class="content">
-           <h1>Explore, Discover, Travel</h1>
-           <p>Discover the new places</p>
-           <a href="#Packages" class="button">Discover more</a>
-        </div>
-     </div>
-
-     <div class="swiper-slide slide" style="background:url(Images/home-slide-3.jpg) no-repeat">
-        <div class="content">
-           <h1>Explore, Discover, Travel</h1>
-           <p>Make your tour worthwhile</p>
-           <a href="#Packages" class="button">Discover more</a>
-        </div>
-      </div>
-
-     </div>
-
-     <div class="swiper-button-next"></div>
-     <div class="swiper-button-prev"></div>
-    </div>
-
-  </section> 
- <!--Home section ends-->
+   </nav>
+    <!--nav section ends-->
    
+       
+          
  
- 
- 
-<!--About section starts-->
-        
-   <section class="About align" id="About">
 
-      <div class="image">
-          <img src="images 1/about-img.jpg">
+
+    
+ <!--Home section ends-->
+  <section id="Home" class="p-1 mt-md-5">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/slider-1.png"  alt="slider-1"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="img/slider-2.png" alt="slider-2">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/slider-3.png" alt="slider-3">
+        </div>
+       
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    
+  </section> 
+  <!--Home section ends-->
 
-      <div class="space">
-          <h1>Why choose us</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <p>Repellat eligendi illo voluptatum alias vero rem reiciendis porro natus tempore nemo fuga qui, quo illum!</p>
-          <a href="#reviews" class="circle">Read more</a>
-      
-
-      <div class="icons-container">
-          <div class="icons">
-              <i class="fa-solid fa-map"></i>
-              <h1>Top destination</h1>
-          </div> 
-
-          <div class="icons">
-               <i class="fa-solid fa-hand-holding-dollar"></i>
-               <h1>affordable prices</h1>
+    <!--About section starts-->
+    <section id="About" class="container-fluid pt-5 mt-md-5 py-5">
+      <div class="container pt-5 mt-md-5">
+          <div class="row">
+              <div class="col-12 col-lg-5 mt-md-2">
+                  <img class="img-fluid"src="img/about.png" alt="about us">
+               </div>
+              <div class="col-12 col-lg-7">
+                  <h1 class="display-6"><b>About us</b></h1>
+                  <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit autem, architecto modi temporibus quas quidem, 
+                  laudantium libero, aliquam dolore tenetur rem? Et veritatis commodi voluptatem inventore quaerat 
+                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                 <h3 class="display-6">Follow us</h3>
+                 <a href="#"> <img src="img/nav-icon/facebook.png" alt="facebook"></a>&nbsp; &nbsp;
+                 <a href="#"> <img src="img/nav-icon/skype.png" alt="skype"></a>&nbsp; &nbsp;
+                 <a href="#"> <img src="img/nav-icon/linkedin.png" alt="linkedin"></a>&nbsp; &nbsp;
+                 <a href="#"> <img src="img/nav-icon/youtube.png" alt="youtube"> 
+              </div>
           </div>
-
-          <div class="icons">
-              <i class="fa-solid fa-headset"></i>
-              <h1>24/7 guide services</h1>
-          </div>
-
-
       </div>
-  </div>
-
   </section>
-
   <!--About section ends-->
 
-  <!--review section starts-->
-  <section class="reviews align" id="reviews">
-  <div class="review-slider">
-      <div class="set">
-          <h1>Clients review</h1>
+<!--Service section starts-->
+
+
+<section id="Services" class="container-fluid py-5">
+
+  <div class="container pt-5 mt-md-5">
+
+      <div class="row">
+          <div class="col-12 pt-5 mt-md-5 text-center">
+              <a class="text-decoration-none" href="#"></a>
+              <h1 class="display-6"><b>Our services</b></h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, numquam!</p>
+             <img src="img/star.png" alt="star">
+              <img src="img/star.png" alt="star">
+              <img src="img/star.png" alt="star">
+              <img src="img/star.png" alt="star">
+              <img src="img/star.png" alt="star">
+          </div>
       </div>
-           <div class="slide">
-              <div class="stars">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-              </div>
+   <div class="row pt-5">
+      <div class="col-12 col-lg-3 mb-3">
+          <div class="border p-3 text-center">
+              <img class="img-fluid" src="img/service (1).png" alt="Web designing">
+              <h5 class="py-2">Web designing</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+          </div>
+      </div>
 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat odit blanditiis quibusdam maxime, ad nesciunt labore veritatis 
-                  ex pariatur aut modi magnam quaerat rem quam laborum consequatur perspiciatis optio. Atque.</p>
-                  <h1>John deo</h1>
-                  <span>Traveler</span>
-                  <img src="Reviews.img/pic-1.png">
-               </div> 
-           <div class="slide">
-              <div class="stars">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-
-              </div>
-
-                  <p>
-                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                   Aut illum debitis magnam a quia quibusdam, esse ut, accusantium cumque autem accusamus facere. 
-                   Excepturi voluptatibus nihil beatae amet vel, ut sed?
-                   </p>
-                  <h1>Angelina</h1>
-                  <span>Traveler</span>
-                  <img src="Reviews.img/pic-2.png">
-           </div>
-          
-           <div class="slide">
-              <div class="stars">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-              </div>
-
-                  <p>
-                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                   Aut illum debitis magnam a quia quibusdam, esse ut, accusantium cumque autem accusamus facere. 
-                   Excepturi voluptatibus nihil beatae amet vel, ut sed?
-                   </p>
-                  <h1>william swith</h1>
-                  <span>Traveler</span>
-                  <img src="Reviews.img/pic-3.png">
-           </div>
-
-           <div class="slide">
-              <div class="stars">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-              </div>
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Dolorum quaerat fugit explicabo quia quod excepturi nostrum aliquid perferendis architecto necessitatibus laborum, 
-                   nobis error cupiditate quam. Natus, tempora ipsam? Aliquam, dolores.</p>
-                  <h1> Elizabeth</h1>
-                  <span>Traveler</span>
-                  <img src="Reviews.img/pic-4.png">
-           </div>
-          
-
-
-           <div class="slide">
-              <div class="stars">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-              </div>
-
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident animi quod sint, 
-                      odio perferendis vel nostrum incidunt facere dolorem dolorum alias blanditiis tenetur enim pariatur! 
-                      Aliquid numquam impedit dolorum?</p>
-                  <h1> Elizabeth</h1>
-                  <span>Traveler</span>
-                  <img src="Reviews.img/pic-5.png">
-           </div>
-
-
-           <div class="slide">
-              <div class="stars">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-              </div>
-
-                  <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aliquam! A veniam quisquam provident molestias. 
-                   Nostrum eos praesentium, vel magnam necessitatibus delectus eius ut dignissimos assumenda atque,
-                    qui unde modi.</p>
-                  <h1>Nancy</h1>
-                  <span>Traveler</span>
-                  <img src="Reviews.img/pic-6.png">
-           </div>
+      <div class="col-12 col-lg-3 mb-3">
+        <div class="border p-3 text-center">
+            <img class="img-fluid" src="img/service (2).png" alt="Web Development">
+            <h5 class="py-2">Web Development</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+        </div>
+    </div>
+    
+    <div class="col-12 col-lg-3 mb-3">
+      <div class="border p-3 text-center">
+          <img class="img-fluid" src="img/service (3).png" alt="Web WEB RESEARCH">
+          <h5 class="py-2">Web WEB RESEARCH</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+      </div>
   </div>
+
+  <div class="col-12 col-lg-3 mb-3">
+    <div class="border p-3 text-center">
+        <img class="img-fluid" src="img/service (4).png" alt="SEO">
+        <h5 class="py-2">SEO</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+    </div>
+</div>
+
+<div class="col-12 col-lg-3 mb-3">
+    <div class="border p-3 text-center">
+        <img class="img-fluid" src="img/service (5).png" alt="DIGITAL MARKETING">
+        <h5 class="py-2">DIGITAL MARKETING</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+    </div>
+</div>
+
+
+<div class="col-12 col-lg-3 mb-3">
+<div class="border p-3 text-center">
+    <img class="img-fluid" src="img/service (6).png" alt="App development">
+    <h5 class="py-2">App development</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-3 mb-3">
+<div class="border p-3 text-center">
+  <img class="img-fluid" src="img/service (7).png" alt="MOBILE APP">
+  <h5 class="py-2">MOBILE APP</h5>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+</div>
+</div>
+
+
+<div class="col-12 col-lg-3 mb-3">
+<div class="border p-3 text-center">
+<img class="img-fluid" src="img/service (8).png" alt="IOT">
+<h5 class="py-2">IOT</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, id.</p>
+<button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-dark">Get a Quote</button>
+</div>
+</div>
+
+</div>
+</div>
 </section>
+  
+<!--Service section ends-->
+<!-- Modal section starts-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
 
+    <div class="modal-content">
+      <form action="">
 
-  <!--package section starts-->
- 
-<section class="Packages align" id="Packages">
-
-     <div class="letter" style="background: url(background.img/header-bg-1.png) no-repeat">
-      <h1>Our packages</h1>
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Get a Quote</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
- <div class="box-container">
-      
-        <div class="box">
-         <img src="images 2/img-1.jpg">
-          <h1>Adventure and tour</h1>
-          <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
-          <a href="#Book" class="circle">Book now</a>
+      <div class="modal-body">
+         
+
+              <div class="form-floating">
+                  <input required type="text-center" class="form-control mb-3" id="floatingName" placeholder="Your name | Company">
+                  <label for="floatingName">Your name | Company:</label>
+                </div>
+              <div class="form-floating mb-3">
+                  <input required type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address:</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input  required type="text" class="form-control" id="floatingPhone" placeholder="+99 9999000998">
+                  <label for="floatingPhone">Phone number:</label>
+                </div>
+
+                <select  required class="form-select mb-3" multiple aria-label="multiple select example">
+                  <option value="0">Select Services:</option>
+                  <option value="Web designing">Web Designing</option>
+                  <option value="Web development">Web development</option>
+                  <option value="Web WEB RESEARCH">Web WEB RESEARCH</option>
+                  <option value="SEO">SEO</option>
+                  <option value="DIGITAL MARKETING">DIGITAL MARKETING</option>
+                  <option value="MOBILE APP">MOBILE APP</option>
+                  <option value="IOT">IOT</option>
+                </select>
+
+                  <div>
+                  <textarea required class="form-control"  cols="30" rows="5" placeholder="Details:"></textarea>
+                </div>
+              </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </form>
+
+
+    </div>
+  </div>
+</div>
+<!--Modal section ends-->
+
+<!--Team section starts-->
+<section id="Team" class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12  text-center">
+          <a class="text-decoration-none" href="#"></a>
+          <h1 class="display-6"><b>Meet our team</b></h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, numquam!</p>
+
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+      </div>
+  </div>
+
+  <div class="row pt-4">
+    <div class="col-12 col-lg-10 offset-lg-1">
+      <div class="row">
+
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <img src="img/team-1.png" class="card-img-top" alt="team-1">
+            <div class="card-body text-center py-3 mb-3">
+              <h4><i>M.K Tuktuki</i></h4>
+              <h5>Web developer</h5>
+              <a href=""><img src="img/youtube.png" alt="youtube"></a>  &nbsp; &nbsp;
+              <a href=""><img src="img/linkedin.png" alt="linkedin"></a> &nbsp; &nbsp;
+              <a href=""><img src="img/twitter.png" alt="twitter"></a>
+            </div>
+          </div>
         </div>
 
-     
-        <div class="box">
-           <img src="images 2/img-2.jpg">
-           <h1>Adventure and tour</h1>
-           <p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
-           <a href="#Book" class="circle">Book now</a>
-       </div>
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <img src="img/team-2.png" class="card-img-top" alt="team-2">
+            <div class="card-body text-center py-3 mb-3">
+              <h4><i>M.L Pultusi</i></h4>
+              <h5>Web developer</h5>
+              <a href=""><img src="img/youtube.png" alt="youtube"></a>  &nbsp; &nbsp;
+              <a href=""><img src="img/linkedin.png" alt="linkedin"></a> &nbsp; &nbsp;
+              <a href=""><img src="img/twitter.png" alt="twitter"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <img src="img/team-3.png" class="card-img-top" alt="team-3">
+            <div class="card-body text-center py-3 mb-3">
+              <h4><i>L.T Tuntuni</i></h4>
+              <h5>Web developer</h5>
+              <a href=""><img src="img/youtube.png" alt="youtube"></a>  &nbsp; &nbsp;
+              <a href=""><img src="img/linkedin.png" alt="linkedin"></a> &nbsp; &nbsp;
+              <a href=""><img src="img/twitter.png" alt="twitter"></a>
+            </div>
+          </div>
+        </div>
 
 
-    <div class="box">
-       <img src="images 2/img-3.jpg">
-       <h1>Adventure and tour</h1>
-       <p>Quibusdam est tempora libero totam quia animi lane.</p>
-       <a href="#Book" class="circle">Book now</a>
-    </div>
-
-
-
-        <div class="box">
-          <img src="images 2/img-4.jpg">
-          <h1>Adventure and tour</h1>
-          <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
-          <a href="#Book" class="circle">Book now</a>
-         </div>
-
-
-      <div class="box">
-       <img src="images 2/img-5.jpg">
-          <h1>Adventure and tour</h1>
-          <p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
-          <a href="#Book" class="circle">Book now</a>
-     </div>
-
-
-     <div class="box">
-          <img src="images 2/img-6.jpg">
-          <h1>Adventure and tour</h1>
-          <p>Quibusdam est tempora libero totam quia animi lane.</p>
-          <a href="#Book" class="circle">Book now</a>
       </div>
 
-
-  <div class="box">
-     <img src="images 2/img-7.jpg">
-        <h1>Adventure and tour</h1>
-        <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
-        <a href="#Book" class="circle">Book now</a>
     </div>
-
-
-<div class="box">
-   <img src="images 2/img-8.jpg">
-    <h1>Adventure and tour</h1>
-    <p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
-    <a href="#Book" class="circle">Book now</a>
-</div>
-
-
-
-  <div class="box">
-    <img src="images 2/img-9.jpg">
-    <h1>Adventure and tour</h1>
-    <p>Quibusdam est tempora libero totam quia animi lane.</p>
-    <a href="#Book" class="circle">Book now</a>
-</div>
-
-
-<div class="box">
-    <img src="images 2/img-10.jpg">
-    <h1>Adventure and tour</h1>
-    <p>Lorem ipsum dolor sit amet consectetur,adipie elit.</p>
-    <a href="#Book" class="circle">Book now</a>
-</div>
-
-
-<div class="box">
-<img src="images 2/img-11.jpg">
-<h1>Adventure and tour</h1>
-<p>Fugiat id doloremque blanditiis, obcaecati cumque.</p>
-<a href="#Book" class="circle">Book now</a>
-</div>
-
-
-<div class="box">
-<img src="images 2/img-12.jpg">
-<h1>Adventure and tour</h1>
-<p>Quibusdam est tempora libero totam quia animi lane.</p>
-<a href="#Book" class="circle">Book now</a>
-</div>
-
-</div>
-
-  <div class="load-more">
-      <a href="#Packages" class="button">Load more</a>
   </div>
-  </section>
-
-<!--Package section ends-->
-
-<!--Home offer section starts-->
-<section class="Home-offer align">
-  <div class="area">
-  <h1>upto 50% 0ffer</h1>
-  <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Neque quam facilis veniam doloribus quo autem vero temporibus! Repudiandae reprehenderit, 
-      ea pariatur facilis neque in laborum corporis laboriosam nostrum temporibus consequatur?
-  </p>
-  <a href="#Book" class="button">Book now</a>
-</div>
-
-
 </section>
-<!--Home offer section ends-->
+<!--Team section ends-->
 
+<!--Feedback section starts-->
 
-<!--service section starts-->
-
-<section class="Services align">
-  <div class="title">
-      <h1>Our services</h1>
-  </div>
-
+<section class="container-fluid py-5">
   <div class="container">
-      <div class="contain">
-          <img src="images 3/icon-1.png">
-          <h1>Adventure</h1>
-      </div>
+    <div class="row">
+      <div class="col-12  text-center">
+          <a class="text-decoration-none" href="#"></a>
+          <h1 class="display-6"><b>Client feedback</b></h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, numquam!</p>
 
-      <div class="contain">
-          <img src="images 3/icon-2.png">
-          <h1>Tour guide</h1>
-      </div>
-
-      <div class="contain">
-          <img src="images 3/icon-3.png">
-          <h1>Trekking</h1>
-      </div>
-
-      <div class="contain">
-          <img src="images 3/icon-4.png">
-          <h1>off road</h1>
-      </div>
-
-      <div class="contain">
-          <img src="images 3/icon-5.png">
-          <h1>Camping</h1>
-      </div>
-
-      <div class="contain">
-          <img src="images 3/icon-6.png">
-          <h1>camp fire</h1>
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
       </div>
   </div>
+
+  <div class="row py-5">
+    <div class="col-12 text-center">
+      <figure>
+        <blockquote class="blockquote">
+          <img  class="rounded-circle" src="img/client-1.png" alt="client-1">
+          <p class="py-4">A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
 </section>
-<!--Service section ends-->
 
-<!--Book section starts-->
+<!--Feedback section ends-->
+<!--FAQ section starts-->
+<section id="FAQ" class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12  text-center">
+          <a class="text-decoration-none" href="#"></a>
+          <h1 class="display-6"><b>Frequently Asked Questions</b></h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, numquam!</p>
 
-<section class="Book align" id="Book"> 
-
-   <div class="letter" style="background: url(background.img/header-bg-2.png) no-repeat">
-       <h1>Book now</h1>
-   </div>
-   <h1 class="title">Book your trip</h1>
-   <form action="Book" method="post" class="book-form" id="form">
-       <div class="flex">
-           
-           <div class="inputbox">
-               <label for="name" id="name-label">name:</label>
-               <input type="text" placeholder="Enter your name" name="name" id="name" spellcheck="false" onkeyup="validatename()">
-               <small id="n-error" class="d-block mb-3 text-primary"></small>
-           </div>
-
-           <div class="inputbox">
-               <label for="mail" id="mail-label">E-mail:</label>
-               <input type="email" placeholder="Enter your email" name="email" id="mail" spellcheck="false" onkeyup="validateemail()">
-              <small id="e-error" class="d-block mb-3 text-primary"></small>
-
-           </div>
-
-           <div class="inputbox">
-               <label for="phone" id="phone-label">Phone:</label>
-               <input type="number" placeholder="Enter your number" name="Phone" id="phone" spellcheck="false" onkeyup="validatephone()">
-               <small id="p-error" class="d-block mb-3 text-primary"></small>
-
-           </div>
-
-           <div class="inputbox">
-               <label for="address" id="address-label">address:</label>
-               <input type="text" placeholder="Enter your address" name="address" id="address" spellcheck="false" onkeyup="validateaddress()">
-               <small id="a-error" class="d-block mb-3 text-primary"></small>
-
-           </div>
-
-           <div class="inputbox">
-               <label for="location" id="location-label">Where to:</label>
-               <input type="text" placeholder="place you want to visit" name="location" id="location" spellcheck="false" onkeyup="validatelocation()">
-               <small id="l-error" class="d-block mb-3 text-primary"></small>
-
-           </div>
-
-           <div class="inputbox">
-               <label for="guests" id="guests-label">How many:</label>
-               <input type="number" placeholder="Number of guests" name="guests" id="guests" spellcheck="false" onkeyup="validateguests()">
-               <small id="g-error" class="d-block mb-3 text-primary"></small>
-
-           </div>
-
-
-            <div class="inputbox">
-               <label for="Arrival" id="Arrival-label">Arrivals:</label>
-               <input type="date" name="Arrivals" id="Arrival-date" spellcheck="false" onkeyup="validateArrival()">
-               <small id="Ad-error" class="d-block mb-3 text-primary"></small>
-
-           </div>
-
-           <div class="inputbox">
-               <label for="leaving" id="leaving-label">leaving:</label>
-               <input type="date" name="leaving" id="leaving-date" spellcheck="false" onkeyup="validateLeaving()">
-               <small id="le-error" class="d-block mb-3 text-primary"></small>
-           </div>
-
-       </div> 
-       <input type="submit" value="submit" class="button" name="send">
-     </form>
-    </section>
-   <!--Book section ends-->
-   </main>
-   <!--main section ends-->
-
-   <!--Footer section starts-->
-   <footer class="Footer">
-      <div class="sub-container">
-          <div class="sub">
-              <h1>Quick links</h1>
-              <a href="#Home"><i class="fa-solid fa-angle-right"></i>Home</a>
-              <a href="#About"><i class="fa-solid fa-angle-right"></i>About</a>
-              <a href="#Packages"><i class="fa-solid fa-angle-right"></i>Packages</a>
-              <a href="#Book"><i class="fa-solid fa-angle-right"></i>Book</a>
-          </div>
- 
-          <div class="sub">
-              <h1>Extra links</h1>
-              <a href="#"><i class="fa-solid fa-angle-right"></i>Ask Questions</a>
-              <a href="#"><i class="fa-solid fa-angle-right"></i>About us</a>
-              <a href="#"><i class="fa-solid fa-angle-right"></i>Privacy polices</a>
-              <a href="#"><i class="fa-solid fa-angle-right"></i>Terms of uses</a>
-          </div>
-
-          <div class="sub">
-              <h1>Contact info</h1>
-               <a href="#"><i class="fa-solid fa-phone"></i>+123-456-7890</a>
-               <a href="#"><i class="fa-solid fa-phone"></i>+111-222-3333</a>
-               <a href="#"><i class="fa-solid fa-envelope"></i>Tourtravels@gmail.com</a>
-               <a href="#" class="solid"><i class="fa-solid fa-map"></i>Chennai-Tamilnadu-600028</a>
-          </div>
-
-
-          <div class="sub">
-              <h1>Follow us</h1>
-              <a href="#"><i class="fa-brands fa-facebook"></i>Facebook </a>
-              <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
-              <a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
-              <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
-          </div>
-       </div>
-
-
-      <div class="credit">
-      created by<span> mr.web designer</span> | all rights reserved! |
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
       </div>
+  </div>
 
-  </footer>
-  <!--Footer section ends-->
+  <div class="row py-5">
+    <div class="col-12 col-lg-6">
+      <div class="accordion" id="accordion_1">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapse_1" class="accordion-collapse collapse show" aria-labelledby="heading_1" data-bs-parent="#accordion_1">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapse_2" class="accordion-collapse collapse" aria-labelledby="heading_2" data-bs-parent="#accordion_1">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapse_3" class="accordion-collapse collapse" aria-labelledby="heading_3" data-bs-parent="#accordion_1">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6">
+      <div class="accordion" id="accordion_2">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_4">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapse_4" class="accordion-collapse collapse show" aria-labelledby="heading_4" data-bs-parent="#accordion_2">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapse_5" class="accordion-collapse collapse" aria-labelledby="heading_5" data-bs-parent="#accordion_2">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading_6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapse_6" class="accordion-collapse collapse" aria-labelledby="heading_6" data-bs-parent="#accordion_2">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--FAQ section ends-->
 
- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
- <script src="script.js"></script>
+<!--Contact section starts-->
+<section id="Contact" class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12  text-center">
+          <a class="text-decoration-none" href="#"></a>
+          <h1 class="display-6"><b>Our contact</b></h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, numquam!</p>
+
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+          <img src="img/star.png" alt="star">
+      </div>
+  </div>
+
+      <div class="row py-5">
+          <div class="col-12 col-lg-5 mt-md-3">
+              <img class="img-fluid" src="img/contact.png" alt="Contact us">
+           </div>
+          <div class="col-12 col-lg-7">
+            <form action="" method="post" name="myform" id="form"> 
+              <div class="form-floating">
+                <input required type="text-center" class="form-control mb-3" id="name" placeholder="Your name" spellcheck="false"onkeyup="validatename()">
+                <label for="name" id="name-label">Your name:</label>
+                <small id="name-error" class="d-block mb-3 text-danger"></small>
+              </div>
+              <div class="form-floating mb-3">
+                
+                <input required type="email" class="form-control" id="mail" placeholder="name@example.com" spellcheck="false" onkeyup="validateemail()">
+                <label for="mail" id="mail-label">Email address:</label>
+                <small id="e-error" class="d-block mb-3 text-danger"></small>
+              </div>
+
+              <div>
+            
+               <textarea required class="form-control" cols="30" rows="5"  id="detail" placeholder="Details:" spellcheck="false" onkeyup="validatedetail()"></textarea>
+               <label for="detail" id="detail-label"></label>
+               <small id="d-error" class="d-block mb-3 text-danger"></small>
+              </div>
+            <button class="btn btn-primary form-control mt-2">send</button>
+
+            </form>
+          </div>
+         </div>
+      </div>
+</section>
+<!--Contact section ends-->
+
+<!--Footer section starts-->
+<footer class="container-fluid pt-5 mt-md-5 py-5 bg-dark">
+  <div class="row">
+    <div class="col-12 text-center">
+      <a href="#top"><img src="img/top.png" alt="top"></a>
+    </div>
+
+    <div class="col-12 col-lg-2 offset-lg-5 mt-3">
+      <form action="">
+        <div class="input-group mb-3">
+          <input  required type="text" class="form-control" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+          <button class="btn btn-outline-primary" type="button" id="button-addon2">subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-12 text-center pt-3">
+       <a href="#"> <img src="img/nav-icon/facebook.png" alt="facebook"></a>&nbsp; &nbsp;
+       <a href="#"> <img src="img/nav-icon/skype.png" alt="skype"></a>&nbsp; &nbsp;
+       <a href="#"> <img src="img/nav-icon/linkedin.png" alt="linkedin"></a>&nbsp; &nbsp;
+       <a href="#"> <img src="img/nav-icon/youtube.png" alt="youtube"> 
+    </div>
+  </div>
+
+  <div class="col-12 text-center mt-4">
+    <a class="text-decoration-none" href="#"></a>
+    <p class="text-secondary">Copyright &copy; Vignesh.S | All rights Reserved |</p>    
+  </div>
+
+</footer>
+<!--Footer section ends-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
